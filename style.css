@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+h1 {
+    padding: 20px;
+    border: 1px solid red
+}
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+  }
+
+body {
+    background-color: bisque;
+    text-align: center;
+    background-image: url("https://www.scotlandinfo.eu/wp-content/uploads/2019/09/scottish-highlands-skye.jpg");
+    background-size: cover;
+    font-family: 'Caveat', cursive;
+  
+}
+
+img {
+    border-radius: 50%;
+    width: 500px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+  }
+
+ 
