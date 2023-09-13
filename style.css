@@ -2,7 +2,9 @@
 
 h1 {
     padding: 20px;
-    border: 1px solid red
+    border: 1px solid red;
+    color: aliceblue;
+    text-align: center;
 }
 
 .header {
@@ -16,8 +18,13 @@ body {
     text-align: center;
     background-image: url("https://www.scotlandinfo.eu/wp-content/uploads/2019/09/scottish-highlands-skye.jpg");
     background-size: cover;
-    font-family: Georgia, serif;
+    font-family: fantasy;
     color: aliceblue;
+}
+
+p {
+    font-family: fantasy;
+    
 }
 
 img {
