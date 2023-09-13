@@ -16,8 +16,8 @@ body {
     text-align: center;
     background-image: url("https://www.scotlandinfo.eu/wp-content/uploads/2019/09/scottish-highlands-skye.jpg");
     background-size: cover;
-    font-family: 'Caveat', cursive;
-  
+    font-family: Georgia, serif;
+    color: aliceblue;
 }
 
 img {
