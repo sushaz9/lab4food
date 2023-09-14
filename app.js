@@ -3,27 +3,25 @@ console.log("Hello!!");
 function greet() {
     let username = prompt("What is your name?");
     
-    document.write(username);
+    document.write("Welcome " + username);
 }
 
-function questionOne() {
-let message = prompt("Haggis is from Scotland (Yes or No)");
-if (message === "yes") {
-
-} else if (message === "no") {
-    
-} else {
-    (message = "Try again");
+function questionOne() {   
+    let message = prompt("Haggis is from Scotland (Yes or No)");
+    if (message === "Yes") {
+    document.write("Well done! That wasn't so hard was it?");
+    } else if (message === "No") {
+    document.write("Wow. You're wrong"); 
+    } else {
+        document.write("Oops, try again");
+    } 
 }
-console.log("yes")
-}
 
-function questionTwo() {
-let answer = prompt("How much do you like Haggis out of 10 (0-10)");
-} if (answer < 5) {
-    answer = "Ouch";
-} else if (answer > 5) {
-    answer = "Mmm!";} 
- else {
-answer = "WRONG!";
+function questionTwo() { 
+    let answer = prompt("How much do you like Haggis out of 10? (0-10)"); 
+    if (answer > 5 && answer <=10) { 
+    document.write("An acquired taste to some but not to you!"); 
+    } else if (answer <= 5 && answer >=0) {
+    document.write("Sheep intestines aren't appealing to you? Okay, whatever. ");    
+    }
 }
