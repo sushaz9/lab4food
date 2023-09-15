@@ -37,4 +37,8 @@ img {
     padding: 10px;
   }
 
- 
+
+  #bagpipes {
+    border-radius: 15%;
+    width: 150px;
+} 

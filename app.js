@@ -25,3 +25,11 @@ function questionTwo() {
     document.write("Sheep intestines aren't appealing to you? Okay, whatever. ");    
     }
 }
+
+function getRating() {
+    let rating = prompt("Rate this site between 1-5")
+    for (let i = 0; i < rating; i++){
+        document.write("<img id ='bagpipes' src ='bagpipes.png'/>")
+    }
+}
+
