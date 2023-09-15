@@ -27,7 +27,11 @@ function questionTwo() {
 }
 
 function getRating() {
-    let rating = prompt("Rate this site between 1-5")
+    let rating = prompt("Rate this site between 1-5");
+    while (rating < 0 || rating >5) {
+        rating = prompt("Please enter a number 5 or lower")
+
+    }
     for (let i = 0; i < rating; i++){
         document.write("<img id ='bagpipes' src ='bagpipes.png'/>")
     }
